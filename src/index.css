@@ -44,8 +44,9 @@ body {
 }
 
 .form-head {
-  color: darkolivegreen
+  color: darkolivegreen;
 }
+
 .tr-class {
   display: flex;
   flex-direction: row;
@@ -57,7 +58,6 @@ body {
   color: brown;
   display: flex;
   align-items: center;
-  align-items: center;
   justify-content: center;
   padding: 5px;
   font-size: 25px;
@@ -66,7 +66,6 @@ body {
 .score-class {
   color: brown;
   display: flex;
-  align-items: center;
   align-items: center;
   justify-content: center;
   padding: 5px;
@@ -81,12 +80,11 @@ body {
 }
 
 .btn-click {
-  padding: 0;
-border: none;
-background: none;
-color: darkolivegreen;
-font-size: 20px;
-background-color: whitesmoke;
-border-radius: 10%;
-padding: 0.5rem;
+  border: none;
+  background: none;
+  color: darkolivegreen;
+  font-size: 20px;
+  background-color: whitesmoke;
+  border-radius: 10%;
+  padding: 0.5rem;
 }
