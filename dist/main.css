@@ -3,6 +3,90 @@
 }
 
 body {
-  background-color: aqua;
+  background-color: burlywood;
 }
 
+.title {
+  color: darkolivegreen;
+}
+
+.main-table {
+  border: 5px solid brown;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: darkblue;
+}
+
+.form-head {
+  color: darkolivegreen
+}
+.tr-class {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  border-top: 2px solid black;
+}
+
+.user-class {
+  color: brown;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.score-class {
+  color: brown;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 25px;
+}
+
+.refresh-scores {
+  display: flex;
+  gap: 5rem;
+  color: darkolivegreen;
+  padding-bottom: 2rem;
+}
+
+.btn-click {
+  padding: 0;
+border: none;
+background: none;
+color: darkolivegreen;
+font-size: 20px;
+background-color: whitesmoke;
+border-radius: 10%;
+padding: 0.5rem;
+}

@@ -18,9 +18,12 @@ btn.addEventListener('click', () => {
     .then((data) => {
       userdetaiils.innerHTML = '';
       data.result.forEach((el) => {
-        const div = document.createElement('div');
-        const user = document.createElement('h1');
-        const score = document.createElement('h1');
+        const div = document.createElement('tr');
+        div.classList.add('tr-class');
+        const user = document.createElement('p');
+        user.classList.add('user-class');
+        const score = document.createElement('p');
+        score.classList.add('score-class');
 
         user.innerHTML = el.user;
 
